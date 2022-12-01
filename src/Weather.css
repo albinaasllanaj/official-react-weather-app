@@ -1,7 +1,55 @@
+:root {
+    --primary-color: #70757a;
+}
+
 .Weather {
     border: 1px solid #dadde1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #70757a;
+    padding: 16px;
+    border-radius: 4px;
+    max-width: 600px;
+
 }
 
 .name, .GitHub {
     text-decoration: none;
+
 }
+
+.Weather h1 {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    margin: 20px 0 0 0 ;
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Weather li {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    
+}
+
+.Weather img {
+    height: 64px;
+    margin-right: 10px;
+}
+
+.Weather .temperature {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.Weather .unit {
+    font-size: 16px;
+    position: relative;
+    top: -34px;
+}
+
