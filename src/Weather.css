@@ -1,3 +1,7 @@
 .Weather {
     border: 1px solid #dadde1;
 }
+
+.name, .GitHub {
+    text-decoration: none;
+}
