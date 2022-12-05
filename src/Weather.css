@@ -12,6 +12,9 @@
 
 }
 
+.Weather canvas {
+    padding-right: 16px;
+}
 .name, .GitHub {
     text-decoration: none;
 
