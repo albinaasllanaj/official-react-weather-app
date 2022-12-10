@@ -13,6 +13,7 @@ const [weatherData, setWeatherData] = useState({ ready: false });
         console.log(response.data);
         setWeatherData({
             ready: true,
+            coordinates: response.data.coord,
             temperature: Math.round(response.data.main.temp),
             date: new Date(response.data.dt * 1000),
             humidity: response.data.main.humidity,
@@ -53,7 +54,7 @@ return (
             </form>
             
             <WeatherInfo data={weatherData}/> 
-            <WeatherForecast />
+            <WeatherForecast coordinates={weatherData.coordinates} />
         </div>
     );
     } else {
