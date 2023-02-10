@@ -3,9 +3,9 @@
 }
 
 .Weather {
-    border: 1px solid #dadde1;
+    border: ridge;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #70757a;
+    color: #FFCA2C;
     padding: 16px;
     border-radius: 4px;
     max-width: 600px;
