@@ -3,7 +3,8 @@
 }
 
 .Weather {
-    border: ridge #FFCA2C;
+    border: none;
+    background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #70757a;
     padding: 16px;
@@ -56,3 +57,6 @@
     top: -34px;
 }
 
+.btn {
+    background: transparent;
+}
